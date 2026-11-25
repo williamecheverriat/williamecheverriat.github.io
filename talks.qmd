@@ -2,7 +2,7 @@
 title: "Talks"
 ---
 
-Conference presentations, newest first.
+Conference presentations, grouped by year, newest year first.
 
 ## 2026
 

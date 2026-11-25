@@ -1,4 +1,4 @@
-﻿---
+---
 pagetitle: "William E. Echeverría Tigse"
 description: "PhD researcher in Economics and Finance at the University of Coimbra and the University of Minho, and researcher at CeBER."
 ---
