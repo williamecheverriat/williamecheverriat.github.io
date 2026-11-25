@@ -1,10 +1,13 @@
 # CLAUDE.md
 
-Personal academic website of **William E. Echeverria Tigse**, built with Quarto (1.10.19) as a Quarto website
-project and published to GitHub Pages at https://williamecheverriat.github.io.
+Personal academic website of **William E. Echeverría Tigse** (with the accent on pages and site title),
+built with Quarto (1.10.19) as a Quarto website project and published to GitHub Pages at
+https://williamecheverriat.github.io.
 
-- Position/affiliation: TODO(William): not yet provided.
-- Research areas: TODO(William): not yet provided.
+- Position/affiliation: PhD researcher in Economics and Finance, University of Coimbra & University of Minho;
+  Researcher at CeBER (University of Coimbra). Source of truth for career facts: `files/cv.pdf`.
+- Research areas: international political economy, financialisation, innovation, elite studies, dollarisation,
+  econometrics, geometrical data analysis.
 - Audience: academics, hiring committees, students. Tone: professional, plain, first person
   (details in `.claude/rules/writing-style.md`).
 - William knows R and Quarto well and web development less well. Explain web-specific changes briefly.
@@ -40,10 +43,9 @@ project and published to GitHub Pages at https://williamecheverriat.github.io.
 | `teaching.qmd` | Teaching: courses, TA roles, materials |
 | `cv.qmd` | CV page linking/embedding `files/cv.pdf` |
 | `blog.qmd` | Blog: Quarto listing page of `posts/` |
-| `about.qmd` | To be merged into `index.qmd` later. Do not delete without asking |
 
-Navbar order (once these pages exist): Home, Research, Talks, Teaching, CV, Blog.
-Some of these pages do not exist yet. **Ask before creating a page that doesn't exist.**
+Navbar order: Home, Research, Talks, Teaching, CV, Blog. **Ask before creating a page not listed here.**
+Profile photo: `images/profile.jpg` (600×600). Unresolved facts are shown on pages as `[TODO(William): ...]{.todo}`.
 
 ## Workflow (local and cloud sessions)
 

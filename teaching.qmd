@@ -1,0 +1,49 @@
+---
+title: "Teaching"
+---
+
+## Universidad UTE
+
+Lecturer in Economics, Faculty of Law, Business, and Social Sciences, 2024–present. Courses, newest first:
+
+::: {.entry}
+[Contemporary Challenges]{.entry-title}
+
+[October 2025 – February 2026 · First-year Economics students]{.entry-meta}
+:::
+
+::: {.entry}
+[Macroeconomics]{.entry-title}
+
+[April 2025 – August 2025 · International Business students]{.entry-meta}
+:::
+
+::: {.entry}
+[Economic Sociology]{.entry-title}
+
+[April 2025 – August 2025 · First-year Economics students]{.entry-meta}
+:::
+
+::: {.entry}
+[Inferential Statistics]{.entry-title}
+
+[October 2024 – February 2025 · Business Administration and International Business students]{.entry-meta}
+:::
+
+::: {.entry}
+[Contemporary Challenges]{.entry-title}
+
+[October 2024 – February 2025 · First-year Economics students]{.entry-meta}
+:::
+
+::: {.entry}
+[Macroeconomics]{.entry-title}
+
+[April 2024 – August 2024 · International Business students]{.entry-meta}
+:::
+
+::: {.entry}
+[Microeconomics]{.entry-title}
+
+[April 2024 – August 2024 · International Business students]{.entry-meta}
+:::

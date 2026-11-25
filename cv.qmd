@@ -1,0 +1,16 @@
+---
+title: "CV"
+---
+
+My full curriculum vitae covers education, academic appointments, research, teaching, grants, and professional
+experience.
+
+Last updated: November 2026.
+
+::: {.cv-actions}
+[Download CV (PDF)](files/cv.pdf){.btn .btn-primary download="William_Echeverria_Tigse_CV.pdf"}
+:::
+
+<object class="cv-embed" data="files/cv.pdf" type="application/pdf" aria-label="CV of William E. Echeverría Tigse (PDF)">
+<p>Your browser cannot display the PDF here. [Open the CV (PDF)](files/cv.pdf) instead.</p>
+</object>
