@@ -1,0 +1,72 @@
+---
+title: "Talks"
+---
+
+Conference presentations, grouped by year, newest year first.
+
+## 2026
+
+::: {.entry}
+[Installation without Discovery: Asset Manager Capitalism, the Long Wave, and the Financing of the Artificial Intelligence Paradigm]{.entry-title}
+
+[*World Interdisciplinary Network for Institutional Research (WINIR) 2026 Annual Conference*, Conference on
+Private & Public Institutions for Good Governance. Sapienza University of Rome, Italy.]{.entry-meta}
+:::
+
+::: {.entry}
+[The structure of the power elite in Ecuador]{.entry-title}
+
+[*Association for Heterodox Economics (AHE) 2026 Annual Conference*. Faculty of Economics, University of
+Coimbra, Portugal.]{.entry-meta}
+:::
+
+::: {.entry}
+[Governing the economy around a financialised core: The power elite in Ecuador]{.entry-title}
+
+Echeverría, W., & Villacís, B.
+
+[*Society for the Advancement of Socio-Economics (SASE) Virtual Conference*, 22–24 June 2026. Sciences Po
+and University of Bordeaux, France.]{.entry-meta}
+:::
+
+## 2025
+
+::: {.entry}
+[The subordination of economic expertise to elite's interests: The case of the Ecuadorian dollarization]{.entry-title}
+
+Villacís, B., & Echeverría, W.
+
+[*2025 Annual Meeting, Social Science History Association (SSHA)*, Economics Network. Chicago, Illinois.]{.entry-meta}
+:::
+
+## 2023
+
+::: {.entry}
+[The Experts Behind Financial Subordination: Ecuadorian Dollarization]{.entry-title}
+
+Villacís, B., & Echeverría, W.
+
+[*118th Annual Meeting, American Sociological Association (ASA)*, Philadelphia, PA, United States. Session:
+Imperial Institutions: Empire and Colonialism.]{.entry-meta}
+:::
+
+::: {.entry}
+[Power Structures of Dollarizing Elites in Latin America]{.entry-title}
+
+Echeverría, W., & Villacís, B.
+
+[*Society for the Advancement of Socio-Economics (SASE) Annual Meeting*, Rio de Janeiro, Brazil. Miniconference
+MC01 Post-Neoliberal Transformations: Politics, Practices and Governance in a Changing International Political
+Economy.]{.entry-meta}
+:::
+
+## 2022
+
+::: {.entry}
+[Three Dollarizations: History of Financial Subordination]{.entry-title}
+
+Villacís, B., & Echeverría, W.
+
+[*Society for the Advancement of Socio-Economics (SASE) Annual Meeting*, Amsterdam, Netherlands.
+Miniconference TH15 The Political Economy of Financial Subordination.]{.entry-meta}
+:::

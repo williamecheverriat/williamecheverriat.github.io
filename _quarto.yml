@@ -3,14 +3,38 @@ project:
   render:
     - "**/*.qmd"
 
+lang: en-GB
+
 website:
-  title: "William E. Echeverria Tigse"
+  title: "William E. Echeverría Tigse"
   site-url: https://williamecheverriat.github.io
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: research.qmd
+        text: Research
+      - href: talks.qmd
+        text: Talks
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: envelope
+        href: mailto:echeverriatigse@uc.pt
+        aria-label: Email
+      - icon: linkedin
+        href: https://www.linkedin.com/in/william-echeverr%C3%ADa-299116215/
+        aria-label: LinkedIn
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=X_U8qbwAAAAJ
+        aria-label: Google Scholar
+      - icon: github
+        href: https://github.com/williamecheverriat
+        aria-label: GitHub
 
 format:
   html:
@@ -18,7 +42,7 @@ format:
       - cosmo
       - brand
       - styles.scss
-    toc: true
+    toc: false
 
 execute:
   freeze: auto

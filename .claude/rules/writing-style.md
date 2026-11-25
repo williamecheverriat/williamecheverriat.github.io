@@ -3,8 +3,8 @@
 - **Audience:** academics, hiring committees, students.
 - **Voice:** first person ("I study…", "My research…"), professional and plain. No marketing language
   ("passionate", "cutting-edge", "world-class"), no emojis, no exclamation marks.
-- **Spelling:** TODO(William): choose British or American English. Until then, follow the spelling
-  already used on the page being edited, and do not change existing spelling.
+- **Spelling:** British English (e.g. "financialisation", "programme", "centre"). Exception: proper nouns and
+  titles of papers, talks, courses and institutions stay exactly as given (e.g. "Ecuadorian dollarization").
 - Short paragraphs and sentences. Prefer concrete statements over adjectives.
 - Paper titles exactly as given by William (no re-capitalisation). Journal and venue names in *italics*.
 - Co-author names exactly as given. Never add, drop or reorder co-authors.

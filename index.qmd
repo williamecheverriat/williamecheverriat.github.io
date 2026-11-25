@@ -1,7 +1,47 @@
 ---
-title: "William E. Echeverria Tigse"
+pagetitle: "William E. Echeverría Tigse"
+description: "PhD researcher in Economics and Finance at the University of Coimbra and the University of Minho, and researcher at CeBER."
 ---
 
-This is a Quarto website.
+::: {.profile-header}
+![](images/profile.jpg){.profile-photo fig-alt="Portrait of William E. Echeverría Tigse"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+[William E. Echeverría Tigse]{.profile-name}
+
+[PhD researcher in Economics and Finance, University of Coimbra & University of Minho · Researcher at CeBER]{.profile-role}
+
+[International political economy · Financialisation · Innovation · Elite studies · Dollarisation · Econometrics · Geometrical data analysis]{.profile-areas}
+
+::: {.profile-links}
+[[]{.bi .bi-envelope aria-hidden="true"} Email](mailto:echeverriatigse@uc.pt){.btn .btn-outline-primary}
+[[]{.bi .bi-file-earmark-text aria-hidden="true"} CV](files/cv.pdf){.btn .btn-outline-primary}
+[[]{.bi .bi-mortarboard aria-hidden="true"} Google Scholar](https://scholar.google.com/citations?user=X_U8qbwAAAAJ){.btn .btn-outline-primary}
+[[]{.bi .bi-linkedin aria-hidden="true"} LinkedIn](https://www.linkedin.com/in/william-echeverr%C3%ADa-299116215/){.btn .btn-outline-primary}
+[[]{.bi .bi-github aria-hidden="true"} GitHub](https://github.com/williamecheverriat){.btn .btn-outline-primary}
+:::
+:::
+
+## About
+
+I am a PhD researcher in Economics and Finance at the University of Coimbra and the University of Minho, and a
+researcher at the Centre for Business and Economics Research (CeBER), University of Coimbra. I hold a PhD
+studentship from the Fundação para a Ciência e a Tecnologia (FCT). My research interests are international
+political economy, financialisation, innovation, elite studies, dollarisation, econometrics and geometrical data
+analysis.
+
+I hold an M.Sc. in Development Economics from FLACSO Ecuador, a degree in Economics and Financial Sciences
+Engineering from the National Polytechnic School in Quito, and a B.A. in Economics and Management from Jean
+Monnet University in Saint-Étienne. In Ecuador, I have worked on the assessment and quality assurance of higher
+education, including as an advisor to the national accreditation council (CEAACES). I have taught economics at
+Universidad UTE since 2024.
+
+## Selected research
+
+- **The subordination of economic expertise: The case of the Ecuadorian dollarization.** Villacís, B., &
+  Echeverría, W. *Historical Social Research*, 2025. [Details](research.qmd#publications)
+- **Technological Governance in the Age of Asset-Manager Capitalism.** PhD project, 2026.
+  [Details](research.qmd#working-papers)
+- **Financialisation and the intangibles shift in the US non financial corporations.** Working paper, 2026.
+  [Details](research.qmd#working-papers)
+
+[All research →](research.qmd)

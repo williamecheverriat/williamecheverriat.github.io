@@ -1,6 +1,174 @@
 /*-- scss:defaults --*/
-// Bootstrap / Quarto variables go here (before the theme is compiled),
-// e.g. $primary: #1f4e79;
+
+// Typography: system sans-serif stack (no external font download).
+$web-font-path: false;
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-base: 1.0625rem;
+$line-height-base: 1.65;
+$headings-font-weight: 600;
+
+// Colours: light theme, one muted blue accent.
+$body-bg: #ffffff;
+$body-color: #222222;
+$primary: #2f4f7f;
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-decoration: underline;
+$text-muted: #5f6368;
+
+// Navbar: white with dark text instead of Cosmo's dark bar.
+$navbar-bg: #ffffff;
+$navbar-fg: #333333;
+$navbar-hl: $primary;
+
+// Comfortable line length (~70 characters).
+$grid-body-width: 700px;
 
 /*-- scss:rules --*/
-// Custom CSS rules go here (after the theme is compiled).
+
+// Layout and spacing
+.navbar {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+main.content {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+h1, h2, h3 {
+  color: #1a1a1a;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 1.4rem;
+}
+
+h3 {
+  margin-top: 1.75rem;
+  font-size: 1.1rem;
+}
+
+// Home page profile header
+.profile-header {
+  margin: 1rem 0 2.5rem;
+  text-align: center;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.profile-photo {
+  width: 11rem;
+  height: 11rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  display: block;
+  color: #1a1a1a;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.profile-role {
+  display: block;
+  font-size: 1.1rem;
+}
+
+.profile-areas {
+  display: block;
+  color: $text-muted;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+
+  p {
+    display: contents;
+  }
+
+  .btn {
+    padding: 0.3rem 0.85rem;
+    font-size: 0.95rem;
+  }
+
+  .bi {
+    margin-right: 0.25rem;
+  }
+}
+
+// Entries on Research, Talks and Teaching pages
+.entry {
+  margin-bottom: 1.4rem;
+}
+
+.entry p {
+  margin-bottom: 0.2rem;
+}
+
+.entry-title {
+  font-weight: 600;
+}
+
+.entry-meta {
+  color: $text-muted;
+  font-size: 0.95rem;
+}
+
+.entry-links a {
+  font-size: 0.95rem;
+}
+
+// Visible placeholders for missing information
+.todo {
+  padding: 0.1rem 0.35rem;
+  background-color: #fff4d6;
+  border-radius: 0.2rem;
+  color: #6b4e00;
+  font-size: 0.9rem;
+}
+
+// CV page
+.cv-actions {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.cv-embed {
+  width: 100%;
+  height: 80vh;
+  min-height: 500px;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.25rem;
+}
+
+// Blog: show the "coming soon" message whenever the listing has no posts
+// (Quarto only reveals it after filtering, not on first load).
+.quarto-listing:not(:has(.list > *)) .listing-no-matching.d-none {
+  display: block !important;
+  color: $text-muted;
+}
+
+// Small screens
+@media (max-width: 576px) {
+  .cv-embed {
+    height: 70vh;
+    min-height: 400px;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+}

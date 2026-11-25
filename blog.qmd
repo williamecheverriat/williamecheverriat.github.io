@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents: "posts/*/index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+  date-format: "D MMMM YYYY"
+  sort-ui: false
+  filter-ui: false
+language:
+  listing-page-no-matches: "No posts yet. Posts are coming soon."
+---
