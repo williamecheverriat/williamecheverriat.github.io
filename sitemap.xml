@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://williamecheverriat.github.io/index.html</loc>
-    <lastmod>2026-11-25T21:09:30.799Z</lastmod>
+    <loc>https://williamecheverriat.github.io/teaching.html</loc>
+    <lastmod>2026-11-25T23:33:42.062Z</lastmod>
   </url>
   <url>
-    <loc>https://williamecheverriat.github.io/about.html</loc>
-    <lastmod>2026-11-25T21:09:30.799Z</lastmod>
+    <loc>https://williamecheverriat.github.io/research.html</loc>
+    <lastmod>2026-11-25T23:33:42.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamecheverriat.github.io/cv.html</loc>
+    <lastmod>2026-11-25T23:33:42.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamecheverriat.github.io/blog.html</loc>
+    <lastmod>2026-11-25T23:33:42.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamecheverriat.github.io/index.html</loc>
+    <lastmod>2026-11-25T23:33:42.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamecheverriat.github.io/talks.html</loc>
+    <lastmod>2026-11-25T23:33:42.062Z</lastmod>
   </url>
 </urlset>
