@@ -36,13 +36,10 @@ and University of Bordeaux, France.]{.entry-meta}
 
 Villacís, B., & Echeverría, W.
 
-[*2025 Annual Meeting, Social Science History Association (SSHA)*, Economics Network.]{.entry-meta}
-[TODO(William): add the city of the SSHA 2025 meeting.]{.todo}
+[*2025 Annual Meeting, Social Science History Association (SSHA)*, Economics Network. Chicago, Illinois.]{.entry-meta}
 :::
 
-[TODO(William): a SASE 2025 travel grant (Montréal) lists you as a conference presenter, but no 2025 SASE talk is listed. Add it here if there was one.]{.todo}
-
-## 2024
+## 2023
 
 ::: {.entry}
 [The Experts Behind Financial Subordination: Ecuadorian Dollarization]{.entry-title}
@@ -51,10 +48,7 @@ Villacís, B., & Echeverría, W.
 
 [*118th Annual Meeting, American Sociological Association (ASA)*, Philadelphia, PA, United States. Session:
 Imperial Institutions: Empire and Colonialism.]{.entry-meta}
-[TODO(William): check the year and place. The 118th ASA Annual Meeting in Philadelphia may have been in 2023.]{.todo}
 :::
-
-## 2023
 
 ::: {.entry}
 [Power Structures of Dollarizing Elites in Latin America]{.entry-title}
