@@ -1,8 +1,11 @@
 project:
   type: website
+  render:
+    - "**/*.qmd"
 
 website:
   title: "William E. Echeverria Tigse"
+  site-url: https://williamecheverriat.github.io
   navbar:
     left:
       - href: index.qmd
@@ -14,8 +17,8 @@ format:
     theme:
       - cosmo
       - brand
-    css: styles.css
+      - styles.scss
     toc: true
 
-
-
+execute:
+  freeze: auto

@@ -2,3 +2,7 @@
 **/*.quarto_ipynb
 /_site/
 *recovery-codes*
+.env
+.env.*
+
+# Note: _freeze/ must NOT be ignored. It holds frozen R output that CI uses to build the site.

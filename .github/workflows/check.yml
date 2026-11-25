@@ -1,0 +1,24 @@
+name: Check site builds
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.19
+
+      # Build only; nothing is published. R is not installed, so pages with R code
+      # must have their output frozen in _freeze/ (render them locally first).
+      - name: Render site
+        run: quarto render
