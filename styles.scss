@@ -105,9 +105,26 @@ h3 {
     font-size: 0.95rem;
   }
 
-  .bi {
+  .bi,
+  .icon-wrap {
     margin-right: 0.25rem;
   }
+}
+
+// Academicons (e.g. ORCID): match Bootstrap Icons' size, baseline and colour
+// (inherits the link colour, so it is blue like the others and white on hover).
+.ai {
+  font-size: 1em;
+  vertical-align: -0.125em;
+}
+
+// The round ORCID glyph looks smaller than square icons at the same size.
+.profile-links .ai {
+  font-size: 1.15em;
+}
+
+.navbar .nav-link .ai {
+  font-size: 1.1em;
 }
 
 // Entries on Research, Talks and Teaching pages
