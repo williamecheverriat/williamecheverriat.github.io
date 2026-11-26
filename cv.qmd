@@ -1,5 +1,6 @@
 ---
 title: "CV"
+description: "Curriculum vitae of William E. Echeverría Tigse (PDF), covering education, appointments, research, teaching and grants."
 ---
 
 My full curriculum vitae covers education, academic appointments, research, teaching, grants, and professional

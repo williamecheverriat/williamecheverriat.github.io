@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+description: "Blog posts by William E. Echeverría Tigse."
 listing:
   contents: "posts/*/index.qmd"
   sort: "date desc"

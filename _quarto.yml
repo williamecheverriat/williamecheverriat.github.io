@@ -2,12 +2,25 @@ project:
   type: website
   render:
     - "**/*.qmd"
+  # Copied unchanged to the site root. The Google file verifies the site in Search Console:
+  # never delete or rename it.
+  resources:
+    - google39c2dc10e6d68f15.html
+    - robots.txt
 
 lang: en-GB
 
 website:
   title: "William E. Echeverría Tigse"
+  description: "Academic website of William E. Echeverría Tigse, PhD researcher in Economics and Finance at the University of Coimbra and the University of Minho."
   site-url: https://williamecheverriat.github.io
+  # Default preview image and card when a page is shared (Facebook, LinkedIn, X, etc.).
+  image: images/profile.jpg
+  image-alt: "Portrait of William E. Echeverría Tigse"
+  open-graph:
+    locale: en_GB
+  twitter-card:
+    card-style: summary
   navbar:
     left:
       - href: index.qmd

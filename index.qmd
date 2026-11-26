@@ -1,12 +1,15 @@
 ---
 pagetitle: "William E. Echeverría Tigse"
-description: "PhD researcher in Economics and Finance at the University of Coimbra and the University of Minho, and researcher at CeBER."
+description: "William E. Echeverría Tigse is a PhD researcher in Economics and Finance at the University of Coimbra and the University of Minho, and a researcher at CeBER."
+# schema.org Person data for search engines (Home page only).
+include-in-header:
+  - file: _includes/person-jsonld.html
 ---
 
 ::: {.profile-header}
 ![](images/profile.jpg){.profile-photo fig-alt="Portrait of William E. Echeverría Tigse"}
 
-[William E. Echeverría Tigse]{.profile-name}
+# William E. Echeverría Tigse {.profile-name .unnumbered .unlisted}
 
 [PhD researcher in Economics and Finance, University of Coimbra & University of Minho · Researcher at CeBER]{.profile-role}
 
@@ -24,11 +27,11 @@ description: "PhD researcher in Economics and Finance at the University of Coimb
 
 ## About
 
-I am a PhD researcher in Economics and Finance at the University of Coimbra and the University of Minho, and a
-researcher at the Centre for Business and Economics Research (CeBER), University of Coimbra. I hold a PhD
-studentship from the Fundação para a Ciência e a Tecnologia (FCT). My research interests are international
-political economy, financialisation, innovation, elite studies, dollarisation, econometrics and geometrical data
-analysis.
+I am William E. Echeverría Tigse, a PhD researcher in Economics and Finance at the University of Coimbra and the
+University of Minho, and a researcher at the Centre for Business and Economics Research (CeBER), University of
+Coimbra. I hold a PhD studentship from the Fundação para a Ciência e a Tecnologia (FCT). My research interests are
+international political economy, financialisation, innovation, elite studies, dollarisation, econometrics and
+geometrical data analysis.
 
 I hold an M.Sc. in Development Economics from FLACSO Ecuador, a degree in Economics and Financial Sciences
 Engineering from the National Polytechnic School in Quito, and a B.A. in Economics and Management from Jean
@@ -46,3 +49,12 @@ Universidad UTE since 2024.
   [Details](research.qmd#working-papers)
 
 [All research →](research.qmd)
+
+::: {lang="es"}
+## En español {#en-espanol}
+
+Soy William E. Echeverría Tigse, investigador doctoral en Economía y Finanzas en la Universidade de Coimbra y la
+Universidade do Minho, e investigador del Centre for Business and Economics Research (CeBER) de la Universidade
+de Coimbra. Mis áreas de investigación son la economía política internacional, la financiarización, la innovación,
+los estudios sobre élites, la dolarización, la econometría y el análisis geométrico de datos.
+:::
