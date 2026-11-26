@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description: "Publications, working papers and theses by William E. Echeverría Tigse on international political economy, financialisation, innovation and dollarisation."
 toc: true
 toc-title: "On this page"
 ---
@@ -37,7 +38,7 @@ Echeverría, W. E. (2026). Final project for Advanced Econometrics I, University
 :::
 
 ::: {.entry}
-[Sinergias interdepartamentales y desempeño innovador: Evidencia desde Ecuador]{.entry-title}
+[Sinergias interdepartamentales y desempeño innovador: Evidencia desde Ecuador]{.entry-title lang="es"}
 
 Echeverría, W. E. (2021). Master's thesis, FLACSO Ecuador.
 
@@ -45,7 +46,7 @@ Echeverría, W. E. (2021). Master's thesis, FLACSO Ecuador.
 :::
 
 ::: {.entry}
-[Evaluación del desempeño en educación superior en el período 2014–2016: evidencia empírica de la eficiencia de las carreras de medicina y odontología en Ecuador]{.entry-title}
+[Evaluación del desempeño en educación superior en el período 2014–2016: evidencia empírica de la eficiencia de las carreras de medicina y odontología en Ecuador]{.entry-title lang="es"}
 
 Echeverría, W. E., & Rosales Castillo, C. P. (2018). Bachelor's thesis, Escuela Politécnica Nacional.
 

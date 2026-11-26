@@ -32,6 +32,9 @@ https://williamecheverriat.github.io.
 | `.claude/` | Claude Code config: `settings.json`, `rules/`, `skills/`, `agents/` |
 | `.github/workflows/` | `publish.yml` (main → gh-pages), `check.yml` (PR build check) |
 | `MEMORY.md` | Lessons learned from William's corrections |
+| `_includes/person-jsonld.html` | schema.org `Person` data (JSON-LD), included in the Home page header only. Keep it in step with the Home page role, affiliations, research areas, Spanish summary and profile links |
+| `robots.txt` | Allows all crawlers and points to `sitemap.xml` (Quarto generates the sitemap from `site-url`) |
+| `google39c2dc10e6d68f15.html` | Google Search Console verification file, copied unchanged to the site root via `project.resources` |
 
 ### Page map
 
@@ -70,6 +73,8 @@ f. No private info (phone, home address, ID numbers). Never read or create crede
    recovery-code files (`*recovery-codes*`, `.env*`), by any tool, including shell commands.
 g. Site pages are `.qmd` only (no new `.md`, `.ipynb` or `.html` pages).
 h. If Quarto is available, run `quarto render` before opening the PR; otherwise rely on the PR check and say so.
+i. **Never delete, rename or edit `google39c2dc10e6d68f15.html`**, and keep it under `project.resources` in
+   `_quarto.yml`. It verifies site ownership in Google Search Console; without it, verification is lost.
 
 ## Verification
 

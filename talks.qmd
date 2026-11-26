@@ -1,5 +1,6 @@
 ---
 title: "Talks"
+description: "Conference presentations by William E. Echeverría Tigse, grouped by year."
 ---
 
 Conference presentations, grouped by year, newest year first.

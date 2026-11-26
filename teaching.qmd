@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+description: "Economics courses taught by William E. Echeverría Tigse at Universidad UTE since 2024."
 ---
 
 ## Universidad UTE
