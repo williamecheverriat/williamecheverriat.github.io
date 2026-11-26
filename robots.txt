@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
+
 Sitemap: https://williamecheverriat.github.io/sitemap.xml
