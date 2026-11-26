@@ -16,7 +16,7 @@ description: "PhD researcher in Economics and Finance at the University of Coimb
 [[]{.bi .bi-envelope aria-hidden="true"} Email](mailto:echeverriatigse@uc.pt){.btn .btn-outline-primary}
 [[]{.bi .bi-file-earmark-text aria-hidden="true"} CV](files/cv.pdf){.btn .btn-outline-primary}
 [[]{.bi .bi-mortarboard aria-hidden="true"} Google Scholar](https://scholar.google.com/citations?user=X_U8qbwAAAAJ){.btn .btn-outline-primary}
-[[]{.bi .bi-orcid aria-hidden="true"} ORCID](https://orcid.org/0000-0003-3152-1012){.btn .btn-outline-primary}
+[[{{< ai orcid >}}]{.icon-wrap aria-hidden="true"} ORCID](https://orcid.org/0000-0003-3152-1012){.btn .btn-outline-primary}
 [[]{.bi .bi-linkedin aria-hidden="true"} LinkedIn](https://www.linkedin.com/in/william-echeverr%C3%ADa-299116215/){.btn .btn-outline-primary}
 [[]{.bi .bi-github aria-hidden="true"} GitHub](https://github.com/williamecheverriat){.btn .btn-outline-primary}
 :::

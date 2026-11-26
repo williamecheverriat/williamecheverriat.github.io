@@ -32,9 +32,9 @@ website:
       - icon: mortarboard
         href: https://scholar.google.com/citations?user=X_U8qbwAAAAJ
         aria-label: Google Scholar
-      - icon: orcid
+      # Academicons shortcode (Bootstrap Icons has no ORCID icon); the hidden text is the link's accessible name.
+      - text: '{{< ai orcid >}}<span class="visually-hidden">ORCID</span>'
         href: https://orcid.org/0000-0003-3152-1012
-        aria-label: ORCID
       - icon: github
         href: https://github.com/williamecheverriat
         aria-label: GitHub
