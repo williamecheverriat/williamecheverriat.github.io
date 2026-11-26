@@ -12,7 +12,7 @@ Lessons learned from William's corrections. Claude reads this file at the start 
 [LEARN:facts] When the CV and old website disagree, the CV wins.
 [LEARN:awards] SASE 2025 travel grant: awarded, declined; never list as a talk or "presenter". If listed at all, only as an award: "Travel Grant, SASE Annual Meeting, Montréal, 2025".
 [LEARN:seo] New pages need a title and a one-sentence description.
-[LEARN:language] Site language is English; Spanish text is wrapped in lang="es"; Spanish-language works keep their original Spanish titles.
+[LEARN:language] No visible Spanish summary on the site (William's choice). Spanish appears only in JSON-LD and in original Spanish titles.
 [LEARN:design] SEO or content changes must not alter visual styling; check the Home header looks the same before opening the PR.
 
 ## Pending
