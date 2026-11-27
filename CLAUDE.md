@@ -6,8 +6,8 @@ https://williamecheverriat.github.io.
 
 - Position/affiliation: PhD researcher in Economics and Finance, University of Coimbra & University of Minho;
   Researcher at CeBER (University of Coimbra). Source of truth for career facts: `files/cv.pdf`.
-- Research areas: international political economy, financialisation, innovation, elite studies, dollarisation,
-  econometrics, geometrical data analysis.
+- Research areas: financialisation, international political economy, innovation, elite studies, dollarisation,
+  econometrics, geometric data analysis.
 - Audience: academics, hiring committees, students. Tone: professional, plain, first person
   (details in `.claude/rules/writing-style.md`).
 - William knows R and Quarto well and web development less well. Explain web-specific changes briefly.

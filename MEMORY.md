@@ -14,9 +14,6 @@ Lessons learned from William's corrections. Claude reads this file at the start 
 [LEARN:seo] New pages need a title and a one-sentence description.
 [LEARN:language] No visible Spanish summary on the site (William's choice). Spanish appears only in JSON-LD and in original Spanish titles.
 [LEARN:design] SEO or content changes must not alter visual styling; check the Home header looks the same before opening the PR.
+[LEARN:windows] Files William downloads (PDFs, verification files, images) carry Windows' Zone.Identifier mark; Quarto's copy into _site/ then gets locked by the antivirus and the render fails. Fix: Unblock-File on the source file (contents unchanged), delete _site/, re-render. OK to do without asking; it doesn't count as modifying the file.
 
 ## Pending
-
-- Update the CV PDF: ASA talk year should be 2023 (118th Annual Meeting, Philadelphia); remove the SASE 2025
-  "Conference presenter" wording; add Chicago, Illinois for SSHA 2025. Then replace `files/cv.pdf` with the
-  `update-cv` skill. Until then, the site (correct) and the CV PDF disagree on these three points.
