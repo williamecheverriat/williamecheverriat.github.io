@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: "Publications, working papers and theses by William E. Echeverría Tigse on international political economy, financialisation, innovation and dollarisation."
+description: "Publications, work in progress and theses by William E. Echeverría Tigse on financialisation, international political economy, innovation and dollarisation."
 toc: true
 toc-title: "On this page"
 ---
@@ -15,7 +15,7 @@ Villacís, B., & Echeverría, W. (2025). *Historical Social Research*, 50(2), 25
 [[DOI](https://doi.org/10.12759/hsr.50.2025.25) · [JSTOR](https://www.jstor.org/stable/27390603)]{.entry-links}
 :::
 
-## Working papers {#working-papers}
+## Work in progress {#work-in-progress}
 
 ::: {.entry}
 [Technological Governance in the Age of Asset-Manager Capitalism]{.entry-title}
@@ -24,18 +24,30 @@ Echeverría, W. E. (2026). PhD project, University of Coimbra and University of 
 :::
 
 ::: {.entry}
-[Financialisation and the intangibles shift in the US non financial corporations]{.entry-title}
+[Installation without Discovery: Asset Manager Capitalism, the Long Wave, and the Financing of the Artificial Intelligence Paradigm]{.entry-title}
 
-Echeverría, W. (2026). Working paper.
+Echeverría, W.
 :::
 
-## Theses and other writing {#other-writing}
+::: {.entry}
+[Financialisation and the intangibles shift in US non-financial corporations]{.entry-title}
+
+Echeverría, W.
+:::
+
+::: {.entry}
+[Governing the economy around a financialised core: The power elite in Ecuador]{.entry-title}
+
+Echeverría, W., & Villacís, B.
+:::
 
 ::: {.entry}
 [Is Settler Mortality a Valid Instrument?: Identification, Inference, and Sensitivity in the AJR Framework]{.entry-title}
 
-Echeverría, W. E. (2026). Final project for Advanced Econometrics I, University of Minho, Portugal.
+Echeverría, W.
 :::
+
+## Theses {#theses}
 
 ::: {.entry}
 [Sinergias interdepartamentales y desempeño innovador: Evidencia desde Ecuador]{.entry-title lang="es"}

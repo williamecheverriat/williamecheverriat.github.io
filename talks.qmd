@@ -1,23 +1,23 @@
 ---
 title: "Talks"
-description: "Conference presentations by William E. Echeverría Tigse, grouped by year."
+description: "Conference presentations by William E. Echeverría Tigse, grouped by year, and conference organisation."
 ---
 
-Conference presentations, grouped by year, newest year first.
+Conference presentations, grouped by year, newest year first, followed by conference organisation.
 
 ## 2026
 
 ::: {.entry}
 [Installation without Discovery: Asset Manager Capitalism, the Long Wave, and the Financing of the Artificial Intelligence Paradigm]{.entry-title}
 
-[*World Interdisciplinary Network for Institutional Research (WINIR) 2026 Annual Conference*, Conference on
-Private & Public Institutions for Good Governance. Sapienza University of Rome, Italy.]{.entry-meta}
+[*World Interdisciplinary Network for Institutional Research (WINIR) Annual Conference*. Sapienza University of
+Rome, Rome, Italy. Session: Private & Public Institutions for Good Governance.]{.entry-meta}
 :::
 
 ::: {.entry}
 [The structure of the power elite in Ecuador]{.entry-title}
 
-[*Association for Heterodox Economics (AHE) 2026 Annual Conference*. Faculty of Economics, University of
+[*Association for Heterodox Economics (AHE) Annual Conference*. Faculty of Economics, University of Coimbra,
 Coimbra, Portugal.]{.entry-meta}
 :::
 
@@ -26,48 +26,58 @@ Coimbra, Portugal.]{.entry-meta}
 
 Echeverría, W., & Villacís, B.
 
-[*Society for the Advancement of Socio-Economics (SASE) Virtual Conference*, 22–24 June 2026. Sciences Po
-and University of Bordeaux, France.]{.entry-meta}
+[*Society for the Advancement of Socio-Economics (SASE) Annual Meeting* (virtual), 22–24 June 2026. Hosted by
+Sciences Po and University of Bordeaux, France.]{.entry-meta}
 :::
 
 ## 2025
 
 ::: {.entry}
-[The subordination of economic expertise to elite's interests: The case of the Ecuadorian dollarization]{.entry-title}
+[The subordination of economic expertise to elites' interests: The case of the Ecuadorian dollarization]{.entry-title}
 
 Villacís, B., & Echeverría, W.
 
-[*2025 Annual Meeting, Social Science History Association (SSHA)*, Economics Network. Chicago, Illinois.]{.entry-meta}
+[*Social Science History Association (SSHA) Annual Meeting*. Chicago, Illinois, United States. Network:
+Economics.]{.entry-meta}
 :::
 
 ## 2023
 
 ::: {.entry}
-[The Experts Behind Financial Subordination: Ecuadorian Dollarization]{.entry-title}
+[The experts behind financial subordination: Ecuadorian dollarization]{.entry-title}
 
 Villacís, B., & Echeverría, W.
 
-[*118th Annual Meeting, American Sociological Association (ASA)*, Philadelphia, PA, United States. Session:
-Imperial Institutions: Empire and Colonialism.]{.entry-meta}
+[*American Sociological Association (ASA) 118th Annual Meeting*. Philadelphia, Pennsylvania, United States.
+Session: Imperial Institutions: Empire and Colonialism.]{.entry-meta}
 :::
 
 ::: {.entry}
-[Power Structures of Dollarizing Elites in Latin America]{.entry-title}
+[Power structures of dollarizing elites in Latin America]{.entry-title}
 
 Echeverría, W., & Villacís, B.
 
-[*Society for the Advancement of Socio-Economics (SASE) Annual Meeting*, Rio de Janeiro, Brazil. Miniconference
-MC01 Post-Neoliberal Transformations: Politics, Practices and Governance in a Changing International Political
+[*Society for the Advancement of Socio-Economics (SASE) Annual Meeting*. Rio de Janeiro, Brazil. Mini-conference
+MC01: Post-Neoliberal Transformations: Politics, Practices and Governance in a Changing International Political
 Economy.]{.entry-meta}
 :::
 
 ## 2022
 
 ::: {.entry}
-[Three Dollarizations: History of Financial Subordination]{.entry-title}
+[Three dollarizations: History of financial subordination]{.entry-title}
 
 Villacís, B., & Echeverría, W.
 
-[*Society for the Advancement of Socio-Economics (SASE) Annual Meeting*, Amsterdam, Netherlands.
-Miniconference TH15 The Political Economy of Financial Subordination.]{.entry-meta}
+[*Society for the Advancement of Socio-Economics (SASE) Annual Meeting*. Amsterdam, Netherlands. Mini-conference
+TH15: The Political Economy of Financial Subordination.]{.entry-meta}
+:::
+
+## Conference organisation {#organisation}
+
+::: {.entry}
+[Member, Local Organizing Committee]{.entry-title}
+
+[*Association for Heterodox Economics (AHE) Annual Conference*, 2026. Faculty of Economics, University of Coimbra,
+Portugal.]{.entry-meta}
 :::

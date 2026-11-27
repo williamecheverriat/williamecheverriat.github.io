@@ -16,7 +16,7 @@ include-in-header:
 
 [PhD researcher in Economics and Finance, University of Coimbra & University of Minho · Researcher at CeBER]{.profile-role}
 
-[International political economy · Financialisation · Innovation · Elite studies · Dollarisation · Econometrics · Geometrical data analysis]{.profile-areas}
+[Financialisation · International political economy · Innovation · Elite studies · Dollarisation · Econometrics · Geometric data analysis]{.profile-areas}
 
 ::: {.profile-links}
 [[]{.bi .bi-envelope aria-hidden="true"} Email](mailto:echeverriatigse@uc.pt){.btn .btn-outline-primary}
@@ -33,22 +33,22 @@ include-in-header:
 I am William E. Echeverría Tigse, a PhD researcher in Economics and Finance at the University of Coimbra and the
 University of Minho, and a researcher at the Centre for Business and Economics Research (CeBER), University of
 Coimbra. I hold a PhD studentship from the Fundação para a Ciência e a Tecnologia (FCT). My research interests are
-international political economy, financialisation, innovation, elite studies, dollarisation, econometrics and
-geometrical data analysis.
+financialisation, international political economy, innovation, elite studies, dollarisation, econometrics and
+geometric data analysis.
 
 I hold an M.Sc. in Development Economics from FLACSO Ecuador, a degree in Economics and Financial Sciences
 Engineering from the National Polytechnic School in Quito, and a B.A. in Economics and Management from Jean
 Monnet University in Saint-Étienne. In Ecuador, I have worked on the assessment and quality assurance of higher
-education, including as an advisor to the national accreditation council (CEAACES). I have taught economics at
-Universidad UTE since 2024.
+education, including as an advisor to the national accreditation council (CEAACES). I taught economics at
+Universidad UTE from 2024 to 2026.
 
 ## Selected research
 
 - **The subordination of economic expertise: The case of the Ecuadorian dollarization.** Villacís, B., &
   Echeverría, W. *Historical Social Research*, 2025. [Details](research.qmd#publications)
 - **Technological Governance in the Age of Asset-Manager Capitalism.** PhD project, 2026.
-  [Details](research.qmd#working-papers)
-- **Financialisation and the intangibles shift in the US non financial corporations.** Working paper, 2026.
-  [Details](research.qmd#working-papers)
+  [Details](research.qmd#work-in-progress)
+- **Financialisation and the intangibles shift in US non-financial corporations.** Work in progress.
+  [Details](research.qmd#work-in-progress)
 
 [All research →](research.qmd)
