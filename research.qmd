@@ -7,6 +7,8 @@ open-graph:
 twitter-card:
   title: "Research – William E. Echeverría Tigse"
 description: "Publications, work in progress and theses by William E. Echeverría Tigse on financialisation, international political economy, innovation and dollarisation."
+# Keep the description as metadata only (see the hide-description rule in styles.scss).
+body-classes: hide-description
 toc: true
 toc-title: "On this page"
 ---

@@ -1,6 +1,8 @@
 ---
 title: "CV"
 description: "Curriculum vitae of William E. Echeverría Tigse (PDF), covering education, appointments, research, teaching and grants."
+# Keep the description as metadata only (see the hide-description rule in styles.scss).
+body-classes: hide-description
 ---
 
 ::: {.cv-actions}

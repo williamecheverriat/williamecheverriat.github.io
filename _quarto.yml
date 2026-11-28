@@ -28,7 +28,7 @@ website:
       - href: research.qmd
         text: Research
       - href: talks.qmd
-        text: Conferences
+        text: Talks
       - href: teaching.qmd
         text: Teaching
       - href: cv.qmd

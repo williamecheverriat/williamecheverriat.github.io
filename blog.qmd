@@ -1,6 +1,9 @@
 ---
 title: "Blog"
 description: "Blog posts by William E. Echeverría Tigse."
+# Keep the description as metadata only (see the hide-description rule in styles.scss).
+# Individual posts don't use this class, so their descriptions show under the post title.
+body-classes: hide-description
 listing:
   contents: "posts/*/index.qmd"
   sort: "date desc"

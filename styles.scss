@@ -52,9 +52,10 @@ h3 {
   font-size: 1.1rem;
 }
 
-// Page descriptions: keep the front-matter `description` for search engines and link previews
-// (<meta name="description">, og: and twitter: tags) but don't show it under the page title.
-#title-block-header .description {
+// Page descriptions: on pages with `body-classes: hide-description` in their front matter (Research, Talks,
+// CV, Blog list), keep the `description` for search engines and link previews (<meta name="description">,
+// og: and twitter: tags) but don't show it under the page title. Blog posts still show theirs.
+body.hide-description #title-block-header .description {
   display: none;
 }
 
@@ -135,7 +136,7 @@ h3 {
   font-size: 1.1em;
 }
 
-// Entries on Research, Conferences and Teaching pages
+// Entries on Research, Talks and Teaching pages
 .entry {
   margin-bottom: 1.4rem;
 }

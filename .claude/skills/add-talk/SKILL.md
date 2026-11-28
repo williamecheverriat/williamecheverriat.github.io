@@ -1,6 +1,6 @@
 ---
 name: add-talk
-description: Add one presentation to the Conferences page, talks.qmd, optionally with slides (a Quarto revealjs deck, a PDF, or an external link). Use when William asks to add a talk, seminar, conference presentation or slides.
+description: Add one presentation to the Talks page, talks.qmd, optionally with slides (a Quarto revealjs deck, a PDF, or an external link). Use when William asks to add a talk, seminar, conference presentation or slides.
 ---
 
 # Add a talk
@@ -8,8 +8,7 @@ description: Add one presentation to the Conferences page, talks.qmd, optionally
 1. Read `MEMORY.md` and `.claude/rules/writing-style.md`.
 2. Collect from William only: talk title, event/venue, city (optional), date (month + year at least),
    related paper (optional), slides (see step 5). Anything missing → ask or `TODO(William): ...`.
-3. Check `talks.qmd` (the Conferences page) exists. If not, **ask before creating it** (new page; page title and
-   navbar label "Conferences"; keep the file name `talks.qmd` so the URL stays `talks.html`).
+3. Check `talks.qmd` exists. If not, **ask before creating it** (new page; navbar label "Talks").
 4. Create branch `update/add-talk-<short-title>`.
 5. Slides, one of:
    - **Quarto revealjs deck** (William's usual): put the source in `talks/<YYYY-MM-DD-short-title>/index.qmd`
