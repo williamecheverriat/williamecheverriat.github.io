@@ -6,28 +6,44 @@ include-in-header:
   - file: _includes/person-jsonld.html
 ---
 
-::: {.profile-header}
+<!-- Two-column Home layout: profile sidebar (left) and main text (right); stacks on phones. -->
+:::::: {.home-layout .column-page}
+::::: {.home-sidebar}
 ![](images/profile.jpg){.profile-photo fig-alt="Portrait of William E. Echeverría Tigse"}
 
-<!-- Raw HTML H1: a Markdown "#" heading would wrap the rest of the header in a styled section. -->
+<!-- Visual repeat of the name (the H1 is in the main column), so screen readers skip it. -->
+[William E. Echeverría Tigse]{.profile-sidebar-name aria-hidden="true"}
+
+[PhD researcher in Economics and Finance, University of Coimbra & University of Minho · Researcher at CeBER]{.profile-role}
+
+::: {.profile-areas}
+- Financialisation
+- International political economy
+- Innovation
+- Elite studies
+- Dollarisation
+- Econometrics
+- Geometric data analysis
+:::
+
+::: {.profile-links}
+- [[]{.bi .bi-envelope aria-hidden="true"} Email](mailto:echeverriatigse@uc.pt)
+- [[]{.bi .bi-file-earmark-text aria-hidden="true"} CV](files/cv.pdf)
+- [[]{.bi .bi-mortarboard aria-hidden="true"} Google Scholar](https://scholar.google.com/citations?user=X_U8qbwAAAAJ)
+- [[{{< ai orcid >}}]{.icon-wrap aria-hidden="true"} ORCID](https://orcid.org/0000-0003-3152-1012)
+- [[]{.bi .bi-linkedin aria-hidden="true"} LinkedIn](https://www.linkedin.com/in/william-echeverr%C3%ADa-299116215/)
+- [[]{.bi .bi-github aria-hidden="true"} GitHub](https://github.com/williamecheverriat)
+:::
+:::::
+
+<!-- Raw HTML H1: a Markdown "#" heading would wrap the rest of the page in a styled section.
+It sits after the sidebar (not first inside .home-main) so Quarto doesn't move it to the top of the page;
+styles.scss places it at the top of the right column. -->
 ```{=html}
 <h1 class="profile-name">William E. Echeverría Tigse</h1>
 ```
 
-[PhD researcher in Economics and Finance, University of Coimbra & University of Minho · Researcher at CeBER]{.profile-role}
-
-[Financialisation · International political economy · Innovation · Elite studies · Dollarisation · Econometrics · Geometric data analysis]{.profile-areas}
-
-::: {.profile-links}
-[[]{.bi .bi-envelope aria-hidden="true"} Email](mailto:echeverriatigse@uc.pt){.btn .btn-outline-primary}
-[[]{.bi .bi-file-earmark-text aria-hidden="true"} CV](files/cv.pdf){.btn .btn-outline-primary}
-[[]{.bi .bi-mortarboard aria-hidden="true"} Google Scholar](https://scholar.google.com/citations?user=X_U8qbwAAAAJ){.btn .btn-outline-primary}
-[[{{< ai orcid >}}]{.icon-wrap aria-hidden="true"} ORCID](https://orcid.org/0000-0003-3152-1012){.btn .btn-outline-primary}
-[[]{.bi .bi-linkedin aria-hidden="true"} LinkedIn](https://www.linkedin.com/in/william-echeverr%C3%ADa-299116215/){.btn .btn-outline-primary}
-[[]{.bi .bi-github aria-hidden="true"} GitHub](https://github.com/williamecheverriat){.btn .btn-outline-primary}
-:::
-:::
-
+::::: {.home-main}
 ## Bio
 
 I am a PhD researcher at the [Centre for Business and Economics Research (CeBER)](https://www.uc.pt/en/uid/ceber/),
@@ -59,3 +75,5 @@ research.
   [Details](research.qmd#work-in-progress)
 
 [All research →](research.qmd)
+:::::
+::::::
