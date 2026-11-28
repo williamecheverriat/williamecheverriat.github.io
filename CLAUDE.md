@@ -60,6 +60,10 @@ Profile photo: `images/profile.jpg` (600×600). Unresolved facts are shown on pa
 6. William reviews and merges. On merge, `.github/workflows/publish.yml` renders and publishes to `gh-pages`.
    Every PR is build-checked by `.github/workflows/check.yml`.
 
+**Design requests** (colours, fonts, sizes, spacing, layout, buttons, navbar): follow the `design-tweak` skill
+(styling only in `styles.scss` or the `_quarto.yml` theme, with before/after screenshots at 1280px and 390px), and
+run the `design-reviewer` agent before opening the PR.
+
 ## Rules
 
 a. **Never invent facts.** No made-up papers, co-authors, dates, venues, awards, DOIs or links.
@@ -91,8 +95,12 @@ If Quarto cannot run (for example in a cloud session), the PR summary and your f
 
 ## Skills and agents
 
-- Skills (`.claude/skills/`): `add-paper`, `add-talk`, `add-teaching`, `add-post`, `update-cv`, `site-check`.
-- Agent (`.claude/agents/site-reviewer.md`): read-only review of the branch diff before a PR.
+- Skills (`.claude/skills/`): `add-paper`, `add-talk`, `add-teaching`, `add-post`, `update-cv`, `site-check`,
+  `design-tweak` (includes `screenshot.mjs`, which takes full-page screenshots of `_site` at desktop and phone widths).
+- Agents (`.claude/agents/`, read-only, report only):
+  - `site-reviewer.md`: reviews the branch diff before a PR (facts, links, YAML, protected files, privacy).
+  - `design-reviewer.md`: compares the branch with `main` using screenshots for any design change (unintended
+    visual changes, contrast, readability, mobile layout, inline styles).
 - Path-scoped rules (`.claude/rules/`): `blog-posts.md`, `site-config.md`, `writing-style.md` (always on).
 
 ## Learning from corrections
