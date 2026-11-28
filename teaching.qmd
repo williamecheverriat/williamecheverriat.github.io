@@ -1,7 +1,18 @@
 ---
 title: "Teaching"
-description: "Economics courses taught by William E. Echeverría Tigse at Universidad UTE, Quito, from 2024 to 2026."
+description: "Economics courses taught by William E. Echeverría Tigse at the University of Coimbra (FEUC) since 2026 and at Universidad UTE, Quito, from 2024 to 2026."
 ---
+
+## University of Coimbra (FEUC)
+
+Invited Assistant Lecturer (Assistente Convidado), Faculty of Economics, University of Coimbra, Portugal,
+2026–present. Courses taught in Portuguese:
+
+::: {.entry}
+[R for Economics and Management]{.entry-title}
+
+[2026–present · Bachelor in Economics students]{.entry-meta}
+:::
 
 ## Universidad UTE
 
