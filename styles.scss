@@ -59,9 +59,28 @@ body.hide-description #title-block-header .description {
   display: none;
 }
 
-// Home page profile header
-.profile-header {
-  margin: 1rem 0 2.5rem;
+// Home page: two columns (profile sidebar ~30%, main text ~70%) on the page-wide column; they stack on phones
+// (see "Small screens" below).
+// The H1 is a direct child of .home-layout (see index.qmd), so it gets its own row in the right column.
+.home-layout {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: auto 1fr;
+  column-gap: 3rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.home-layout > .profile-name,
+.home-main {
+  grid-column: 2;
+  // Let the main column shrink instead of overflowing.
+  min-width: 0;
+}
+
+.home-sidebar {
+  grid-column: 1;
+  grid-row: 1 / span 2;
   text-align: center;
 
   p {
@@ -78,7 +97,7 @@ body.hide-description #title-block-header .description {
   object-fit: cover;
 }
 
-// The name is the page's H1; reset the theme's heading margins so the header spacing stays compact.
+// The name is the page's H1 (top of the main column); reset the theme's heading margins so the spacing stays compact.
 .profile-name {
   display: block;
   margin: 0 0 0.5rem;
@@ -88,35 +107,51 @@ body.hide-description #title-block-header .description {
   line-height: 1.2;
 }
 
+// Name repeated under the photo (plain text, not a heading).
+.profile-sidebar-name {
+  display: block;
+  color: #1a1a1a;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
 .profile-role {
   display: block;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
-.profile-areas {
-  display: block;
+// Research areas: one per line, smaller and muted.
+.profile-areas ul {
+  margin: 0.75rem 0 1rem;
+  padding: 0;
+  list-style: none;
   color: $text-muted;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
-.profile-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1.25rem;
+// Profile links: plain icon links stacked vertically; the block is centred, the links left-aligned so the
+// icons line up.
+.profile-links ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
 
-  p {
-    display: contents;
-  }
-
-  .btn {
-    padding: 0.3rem 0.85rem;
+  a {
+    display: inline-block;
+    padding: 0.25rem 0;
     font-size: 0.95rem;
   }
 
+  // Fixed-width icon box so all link texts start at the same point.
   .bi,
   .icon-wrap {
-    margin-right: 0.25rem;
+    display: inline-block;
+    width: 1.5em;
   }
 }
 
@@ -185,6 +220,40 @@ body.hide-description #title-block-header .description {
 .quarto-listing:not(:has(.list > *)) .listing-no-matching.d-none {
   display: block !important;
   color: $text-muted;
+}
+
+// Home page below Bootstrap's md breakpoint: one column (sidebar on top, text below). The sidebar name is
+// hidden because the H1 with the same name follows; links sit in two columns with 44px-tall tap targets.
+@media (max-width: 767.98px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+
+  .home-sidebar,
+  .home-layout > .profile-name,
+  .home-main {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .home-sidebar {
+    margin-bottom: 1.5rem;
+  }
+
+  .profile-sidebar-name {
+    display: none;
+  }
+
+  .profile-links ul {
+    display: inline-grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 1.75rem;
+
+    a {
+      padding: 0.55rem 0;
+    }
+  }
 }
 
 // Small screens
