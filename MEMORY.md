@@ -17,3 +17,5 @@ Lessons learned from William's corrections. Claude reads this file at the start 
 [LEARN:windows] Files William downloads (PDFs, verification files, images) carry Windows' Zone.Identifier mark; Quarto's copy into _site/ then gets locked by the antivirus and the render fails. Fix: Unblock-File on the source file (contents unchanged), delete _site/, re-render. OK to do without asking; it doesn't count as modifying the file.
 
 ## Pending
+
+- Update CV PDF with: FEUC invited assistant lecturer, expected PhD completion 2029, WED Ecuador team founding member.

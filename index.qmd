@@ -28,19 +28,26 @@ include-in-header:
 :::
 :::
 
-## About
+## Bio
 
-I am William E. Echeverría Tigse, a PhD researcher in Economics and Finance at the University of Coimbra and the
-University of Minho, and a researcher at the Centre for Business and Economics Research (CeBER), University of
-Coimbra. I hold a PhD studentship from the Fundação para a Ciência e a Tecnologia (FCT). My research interests are
-financialisation, international political economy, innovation, elite studies, dollarisation, econometrics and
-geometric data analysis.
+I am a PhD researcher at the [Centre for Business and Economics Research (CeBER)](https://www.uc.pt/en/uid/ceber/),
+University of Coimbra, funded by an FCT doctoral studentship. Alongside my research, I teach as an invited assistant
+lecturer at the Faculty of Economics (FEUC). I expect to complete the joint PhD in Economics and Finance of the
+Universities of Coimbra and Minho in 2029.
 
-I hold an M.Sc. in Development Economics from FLACSO Ecuador, a degree in Economics and Financial Sciences
-Engineering from the National Polytechnic School in Quito, and a B.A. in Economics and Management from Jean
-Monnet University in Saint-Étienne. In Ecuador, I have worked on the assessment and quality assurance of higher
-education, including as an advisor to the national accreditation council (CEAACES). I taught economics at
-Universidad UTE from 2024 to 2026.
+My doctoral research asks how financialisation shapes technological change, focusing on the ties between large
+asset managers and big tech firms in the United States. I use econometric methods from financial economics and
+macroeconomics.
+
+My second line of research asks how elites and economic experts govern the economy through monetary regimes, with a
+focus on dollarisation in Ecuador. Here I use prosopography and geometric data analysis. I am a founding member of
+the Ecuador national team of the [World Elite Database (WED)](https://worldelitedatabase.org/).
+
+Before coming to Coimbra, I taught economics at Universidad UTE in Quito and worked in Ecuadorian higher education
+policy.
+
+On this website you'll find my research, teaching materials and a blog with shorter pieces within and beyond my
+research.
 
 ## Selected research
 
