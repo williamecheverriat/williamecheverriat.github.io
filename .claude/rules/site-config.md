@@ -11,7 +11,7 @@ paths:
 - Keep `project.render: ["**/*.qmd"]`. It stops `README.md`, `CLAUDE.md`, `MEMORY.md` and `.claude/` from
   becoming pages. New pages must be `.qmd`.
 - Keep `execute.freeze: auto`, and never add R setup to the workflows. CI renders from the committed `_freeze/`.
-- Navbar order, once the pages exist: Home, Research, Talks, Teaching, CV, Blog. Every navbar `href`
+- Navbar order, once the pages exist: Home, Research, Conferences (`talks.qmd`), Teaching, CV, Blog. Every navbar `href`
   must point to an existing `.qmd`.
 - YAML: two-space indentation, no tabs. Quote strings containing `:` or `#`. After any edit,
   run `quarto render` (or flag UNVERIFIED) because a YAML error breaks the whole site.

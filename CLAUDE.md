@@ -42,12 +42,12 @@ https://williamecheverriat.github.io.
 |---|---|
 | `index.qmd` | Home: single-page profile (photo, short bio, links, highlights) |
 | `research.qmd` | Research: working papers, publications, work in progress |
-| `talks.qmd` | Talks: presentations |
+| `talks.qmd` | Conferences: conference presentations and organisation (navbar label "Conferences"; file name and URL stay `talks`) |
 | `teaching.qmd` | Teaching: courses, TA roles, materials |
 | `cv.qmd` | CV page linking/embedding `files/cv.pdf` |
 | `blog.qmd` | Blog: Quarto listing page of `posts/` |
 
-Navbar order: Home, Research, Talks, Teaching, CV, Blog. **Ask before creating a page not listed here.**
+Navbar order: Home, Research, Conferences, Teaching, CV, Blog. **Ask before creating a page not listed here.**
 Profile photo: `images/profile.jpg` (600×600). Unresolved facts are shown on pages as `[TODO(William): ...]{.todo}`.
 
 ## Workflow (local and cloud sessions)
