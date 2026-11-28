@@ -52,6 +52,13 @@ h3 {
   font-size: 1.1rem;
 }
 
+// Page descriptions: on pages with `body-classes: hide-description` in their front matter (Research, Talks,
+// CV, Blog list), keep the `description` for search engines and link previews (<meta name="description">,
+// og: and twitter: tags) but don't show it under the page title. Blog posts still show theirs.
+body.hide-description #title-block-header .description {
+  display: none;
+}
+
 // Home page profile header
 .profile-header {
   margin: 1rem 0 2.5rem;

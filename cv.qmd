@@ -1,12 +1,9 @@
 ---
 title: "CV"
 description: "Curriculum vitae of William E. Echeverría Tigse (PDF), covering education, appointments, research, teaching and grants."
+# Keep the description as metadata only (see the hide-description rule in styles.scss).
+body-classes: hide-description
 ---
-
-My full curriculum vitae covers education, academic appointments, research, teaching, grants, and professional
-experience.
-
-Last updated: November 2026.
 
 ::: {.cv-actions}
 [Download CV (PDF)](files/cv.pdf){.btn .btn-primary download="William_Echeverria_Tigse_CV.pdf"}

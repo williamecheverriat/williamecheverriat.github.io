@@ -42,7 +42,7 @@ https://williamecheverriat.github.io.
 |---|---|
 | `index.qmd` | Home: single-page profile (photo, short bio, links, highlights) |
 | `research.qmd` | Research: working papers, publications, work in progress |
-| `talks.qmd` | Talks: presentations |
+| `talks.qmd` | Talks: presentations (the visible heading on the page reads "Conferences") |
 | `teaching.qmd` | Teaching: courses, TA roles, materials |
 | `cv.qmd` | CV page linking/embedding `files/cv.pdf` |
 | `blog.qmd` | Blog: Quarto listing page of `posts/` |

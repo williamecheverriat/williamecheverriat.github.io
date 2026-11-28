@@ -1,9 +1,15 @@
 ---
-title: "Talks"
+# The page is called "Talks" (navbar, browser tab, link previews); only the visible heading reads "Conferences".
+title: "Conferences"
+pagetitle: "Talks"
+open-graph:
+  title: "Talks – William E. Echeverría Tigse"
+twitter-card:
+  title: "Talks – William E. Echeverría Tigse"
 description: "Conference presentations by William E. Echeverría Tigse, grouped by year, and conference organisation."
+# Keep the description as metadata only (see the hide-description rule in styles.scss).
+body-classes: hide-description
 ---
-
-Conference presentations, grouped by year, newest year first, followed by conference organisation.
 
 ## 2026
 

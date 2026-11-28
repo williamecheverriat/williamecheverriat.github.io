@@ -9,6 +9,9 @@ description: Create a new blog post folder posts/<YYYY-MM-DD-short-title>/index.
 2. Get from William: title, date (default: today, confirm it), one-sentence description, categories,
    and the body text or outline. Don't write the argument of the post yourself. Scaffold with
    `TODO(William): ...` where content is missing.
+   - **Every post requires a one-sentence `description`.** It shows under the post title, in the blog listing
+     and in search results. Use William's wording. If he hasn't given one, ask; don't write it yourself.
+     Until he does, set `description: "TODO(William): one-sentence description."` and list it in the PR.
 3. Check `blog.qmd` exists. If not, **ask before creating it** (listing page; navbar label "Blog").
 4. Create branch `update/add-post-<short-title>`.
 5. Create `posts/<YYYY-MM-DD-short-title>/index.qmd` from [template.md](template.md).
