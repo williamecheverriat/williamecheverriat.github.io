@@ -7,6 +7,7 @@
 //
 // Writes <out>/<page>-<width>.png and prints the page height for each shot. It also warns when a page
 // is wider than the screen (horizontal scrolling, a sign of a broken mobile layout).
+// If no browser is available (e.g. a cloud session), it prints "SCREENSHOTS SKIPPED" and exits with code 2.
 // Keep screenshots outside the repo (scratchpad or temp folder); they are never committed.
 
 import { spawn } from "node:child_process";
@@ -21,6 +22,8 @@ const WIDTHS = [
   { width: 390, height: 844, mobile: true },
 ];
 const SETTLE_MS = 700;
+// Exit codes: 0 = OK, 1 = real error (fix it), 2 = no browser / Node too old (skip screenshots, don't fail).
+const NO_BROWSER = 2;
 
 function parseArgs(argv) {
   const args = { site: "_site", pages: DEFAULT_PAGES, out: null };
@@ -153,8 +156,8 @@ async function main() {
     process.exit(args.help ? 0 : 1);
   }
   if (typeof WebSocket === "undefined") {
-    console.error("This script needs Node 22 or newer (built-in WebSocket).");
-    process.exit(1);
+    console.error(`SCREENSHOTS SKIPPED: this script needs Node 22 or newer (found ${process.version}).`);
+    process.exit(NO_BROWSER);
   }
   const site = resolve(args.site);
   if (!existsSync(join(site, "index.html"))) {
@@ -163,8 +166,8 @@ async function main() {
   }
   const exe = findBrowser();
   if (!exe) {
-    console.error("No Edge, Chrome or Chromium found. Set the BROWSER environment variable to its path.");
-    process.exit(1);
+    console.error("SCREENSHOTS SKIPPED: no Edge, Chrome or Chromium found (set BROWSER to its path if one is installed).");
+    process.exit(NO_BROWSER);
   }
   const out = resolve(args.out);
   mkdirSync(out, { recursive: true });

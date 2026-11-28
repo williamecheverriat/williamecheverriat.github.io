@@ -27,8 +27,15 @@ Styling only. No content changes, no inline styles. Only the element William ask
    `node .claude/skills/design-tweak/screenshot.mjs --out <scratchpad>/design/before --pages <affected pages>`
    It saves `<page>-1280.png` (desktop) and `<page>-390.png` (phone) and prints each page's height.
    Screenshots stay in the scratchpad and are never committed. The script needs Node 22+ and Edge, Chrome or
-   Chromium. If it can't run (for example in a cloud session), say "UNVERIFIED: no screenshots" and ask
-   William to check visually.
+   Chromium.
+   - **No browser available** (for example in a cloud session started from William's phone), the script exits
+     with code 2 and prints `SCREENSHOTS SKIPPED`, or `node` itself is missing. **Don't stop and don't treat
+     this as a failure.** Skip all screenshot steps (5, 8 and the screenshot part of 9), carry on with the edit,
+     and mark the work **"VISUALLY UNVERIFIED — check in quarto preview before merging"**. Write that exact line
+     in your messages to William and at the top of the PR body. All other checks still apply: contrast ratios
+     from the hex values, no inline styles, and `quarto render` (or "UNVERIFIED — relying on the PR check").
+   - Any **other** error (exit code 1, for example a missing page or `_site` not rendered) is a real problem:
+     fix it, don't skip it.
 6. **Edit only**:
    - `styles.scss`: Bootstrap/Quarto variables go under `/*-- scss:defaults --*/` and CSS rules go under
      `/*-- scss:rules --*/`. Keep both markers. Reuse existing variables (`$primary`, `$text-muted`, ...)
@@ -59,7 +66,8 @@ Styling only. No content changes, no inline styles. Only the element William ask
      zoom or scroll position from run to run. Ignore differences **inside** that frame, but not to the frame itself.
    - Fix any unintended change before going on, or report it to William if it can't be avoided.
 9. Run the **`design-reviewer`** agent on the branch. Pass it the intended change, the affected pages and both
-   screenshot folders. Fix blockers. Report warnings to William.
+   screenshot folders (or say that screenshots were skipped, so it reviews the diff only). Fix blockers.
+   Report warnings to William.
 10. Tell William **what to check in `quarto preview`**: which pages, hover and focus states (Tab through the
     links), the collapsed navbar menu on a phone, and the page at phone width (browser DevTools → device toolbar
     → 390px wide, or simply a narrow window).
@@ -70,3 +78,5 @@ Styling only. No content changes, no inline styles. Only the element William ask
     - **Before/after notes**: each page × width compared, what differs, and confirmation that nothing else changed
       (page heights before → after where they differ).
     - The design-reviewer verdict, verification status and what William should check in `quarto preview`.
+    - If screenshots were skipped: **"VISUALLY UNVERIFIED — check in quarto preview before merging"** as the
+      first line, in place of the before/after notes, plus a short list of what to look at on which pages.

@@ -31,7 +31,9 @@ Don't run `quarto render` in the repo itself: the main session does that.
      If it isn't, say the "after" shots may be stale.
    - Pages: all of `index, research, talks, teaching, cv, blog` (and any posts) unless the change is clearly
      limited to one class. Check which pages use it with `grep`.
-   - If no browser or Node 22+ is available, say "UNVERIFIED: no screenshots" and review the diff only.
+   - If no browser or Node 22+ is available (the tool exits with code 2 and prints `SCREENSHOTS SKIPPED`), don't
+     fail: review the diff only and put **"VISUALLY UNVERIFIED — check in quarto preview before merging"** at the
+     top of your report.
 4. Open every before/after pair with the Read tool and compare them. Then go through the checklist.
 
 ## Checklist
